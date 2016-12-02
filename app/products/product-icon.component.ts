@@ -5,7 +5,7 @@ import { Product } from './product-class.component';
         selector: 'product-icon',
         inputs: ['product'],
         template:`
-        <img class="" [src]="product.icon"/>
+        <img class="" width="50" [src]="product.icon"/>
         `
     })
 
